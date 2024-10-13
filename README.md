@@ -4,9 +4,6 @@ Demonstration of PHPArkitect in a Domain Driven Design
 ## Project Structure
 ```sh
 ├── src
-│   ├── Application
-│   ├── Domain
-│   ├── Infrastructure
 │   ├── Order
 │   │   ├── Models
 │   │   └── Services
