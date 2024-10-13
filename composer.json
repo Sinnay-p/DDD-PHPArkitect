@@ -15,5 +15,8 @@
         "allow-plugins": {
             "php-http/discovery": true
         }
+    },
+    "scripts": {
+        "arkitect": "vendor/bin/phparkitect check --config=arkitect.php "
     }
 }

@@ -30,3 +30,11 @@ Demonstration of PHPArkitect in a Domain Driven Design
 - **Bounded Contexts**: The project is organized into multiple bounded contexts: `User`, `Order`, and a shared kernel for shared models.
 - **HTTP Actions**: Actions related to user and order management are placed in the `Http` directory, following the DDD principles.
 - **Architecture Rules**: Using PhpArkitect, rules are defined to ensure that the architecture's integrity is maintained, preventing inappropriate dependencies between contexts.
+
+## How Run
+
+```sh
+composer arkitect
+```
+
+## Example Output
