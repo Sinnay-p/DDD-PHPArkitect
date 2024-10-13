@@ -1,0 +1,11 @@
+<?php
+
+namespace App\User\Services;
+
+class UserService
+{
+    public function createUser($id, $name)
+    {
+        // Logic to create a user
+    }
+}
