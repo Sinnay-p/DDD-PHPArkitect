@@ -38,3 +38,4 @@ composer arkitect
 ```
 
 ## Example Output
+![image](https://github.com/user-attachments/assets/44c9d346-2e6a-4b77-ab84-3b45d909f5b1)
