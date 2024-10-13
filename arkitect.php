@@ -14,8 +14,8 @@ return static function (Config $config): void {
 
     $layeredArchitectureRules = Architecture::withComponents()
     ->component('SharedKernel')->definedBy('App\SharedKernel')
-    ->component('Order')->definedBy('App\Order\*')
-    ->component('User')->definedBy('App\User\*')
+    ->component('Order')->definedBy('App\Order')
+    ->component('User')->definedBy('App\User')
     ->where('SharedKernel')->mayDependOnComponents('SharedKernel')
     ->where('Order')->mayDependOnComponents('SharedKernel', 'Order')
     ->where('User')->mayDependOnComponents('SharedKernel', 'User')

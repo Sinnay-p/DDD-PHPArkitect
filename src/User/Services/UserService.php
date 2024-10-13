@@ -6,6 +6,5 @@ class UserService
 {
     public function createUser($id, $name)
     {
-        // Logic to create a user
     }
 }
