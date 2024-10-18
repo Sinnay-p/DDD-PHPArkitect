@@ -21,6 +21,6 @@ jobs:
           github-auth-token: ${{ secrets.GITHUB_TOKEN }}
           workflow-org: 'Sinnay-p'
           workflow-repo: 'sempgrep'
-          workflow-yaml: 'static_code_analysis_template.yaml'
-          workflow-branch: 'master'
+          workflow-yaml: 'semgrep-scan.yaml'
+          workflow-branch: 'main'
           wait-timeout-in-minutes: '10'
