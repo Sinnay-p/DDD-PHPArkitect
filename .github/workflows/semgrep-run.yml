@@ -18,7 +18,7 @@ jobs:
         uses: anecdotes-ai/remote-workflow-control@latest
         id: return_dispatch
         with:
-          github-auth-token: ${{ github.GITHUB_TOKEN }}
+          github-auth-token: ${{ secrets.GITHUB_TOKEN }}
           workflow-org: 'Sinnay-p'
           workflow-repo: 'sempgrep'
           workflow-yaml: 'static_code_analysis_template.yaml'
