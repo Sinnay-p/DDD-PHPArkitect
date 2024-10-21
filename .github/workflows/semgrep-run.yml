@@ -16,5 +16,5 @@ jobs:
         uses: actions/checkout@v4
         
       - name: Use composite action from another repo
-        uses: Sinnay-p/sempgrep/.github/actions/semgrep-scan@main
+        uses: Sinnay-p/sempgrep/actions/semgrep-scan@v1
 
