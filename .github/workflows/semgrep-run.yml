@@ -1,0 +1,20 @@
+name: Trigger Semgrep Static Code Analysis
+
+on:
+  pull_request:
+  
+permissions:
+    actions: write
+    contents: write
+    pull-requests: write
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Use composite action from another repo
+        uses: Sinnay-p/sempgrep/semgrep/semgre-scan@v2.0.0
+
